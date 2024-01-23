@@ -1,0 +1,32 @@
+/* App.css */
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start; /* Align items to the start (left) */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+body{
+  background-color: white;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.app h1 {
+  width: 100%; /* Make the text span the full width */
+  text-align: center; /* Center the text */
+  color: red;
+}
+
+.app img {
+  width: 48%;
+  height: auto;
+  margin-bottom: 20px;
+  order: 1; /* Set the order to 1 to move the images to the right */
+}
